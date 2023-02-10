@@ -4,19 +4,41 @@
   import About from "./About.svelte";
   let projects = [
     {
+      name: "drv-vuln-scanner",
+      description: `Finds imports that could be exploited in drivers, still requires manual analysis. `,
+      language: "rust",
+      stack: "",
+      link: "https://github.com/riesha/drv-vuln-scanner",
+    },
+
+    {
+      name: "tiny-template",
+      description: `A template for creating small rust binaries (nostd/nocrt)`,
+      language: "rust",
+      stack: "",
+      link: "https://github.com/riesha/tiny-template",
+    },
+    {
+      name: "iana",
+      description: `wip x86/x64 hooking lib (windows)`,
+      language: "rust",
+      stack: "",
+      link: "https://github.com/riesha/iana",
+    },
+    {
       name: "salmon",
       description: `McOsu score server and client mod, i started working on this with a friend (he does the client) because not being able to use discord bots while playing mcosu annoyed me, 
  we're still working on it and are hoping to open it to the public in the future.`,
       language: "rust/c++",
       stack: "postgres\nredis\nprometheus\ngrafana\nsentry",
-      link: "https://github.com/riesha/akane-recode",
+      link: "https://test.dev.kurohi.me/",
     },
     {
       name: "salmon-web",
       description: `The salmon website`,
       language: "html/js/css",
       stack: "Svelte",
-      link: "https://github.com/riesha/salmon-web",
+      link: "https://test.dev.kurohi.me/",
     },
     {
       name: "McOsu db parser",

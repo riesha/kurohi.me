@@ -19,7 +19,7 @@
       <p>&lt;</p>{/if} -->
   <div class="link"><a href={link}>🔗</a></div>
 
-  <div class="extras">{language} {stack.length > 0 ? "-" : ""} {stack}</div>
+  <!-- <div class="extras">{language} {stack.length > 0 ? "-" : ""} {stack}</div> -->
 </div>
 
 <style>
@@ -63,7 +63,7 @@
     text-align: right;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
+
     color: hsl(0, 0%, 50%);
   }
   .description {

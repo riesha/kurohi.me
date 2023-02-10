@@ -10,6 +10,10 @@
     quite empty right now, but i plan on adding content to it over time.
   </p>
   <p>Please enjoy your time here.</p>
+  <p>
+    If you need any freelance dev work done and you think i'm capable of it,
+    please contact me via Twitter! rates are negociable.
+  </p>
 
   <img src="assets/barunson.gif" alt="barunson gif" />
   <hr />
