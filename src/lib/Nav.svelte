@@ -2,11 +2,11 @@
 </script>
 
 <div class="nav">
-  †ﾟ¨ﾟﾟ･:..☆
-  <a href="/">home</a> †
-  <a href="/projects">projects</a>
-  † <a href="/about">about</a>
-  ☆○o｡..:*･"†
+  <div class="nav-list">
+    <a href="/">home</a>
+    <a href="/projects">projects</a>
+    <a href="/about">about</a>
+  </div>
 </div>
 
 <style>
@@ -19,8 +19,26 @@
     font-size: 0.9em;
   }
   a {
-    margin: 1px;
-    padding: 1px;
     color: #cc9bf5;
+  }
+  a:not(:last-child)::after {
+    content: "†";
+    margin-inline: 0.5rem;
+  }
+  .nav-list:last-child::after {
+    content: '☆○o｡..:*･"†';
+    margin-inline: 0.5rem;
+  }
+  .nav-list:first-child::before {
+    content: "†ﾟ¨ﾟﾟ･:..☆";
+    margin-inline: 0.5rem;
+  }
+  @media (max-width: 576px) {
+    .nav-list:last-child::after {
+      content: "☆";
+    }
+    .nav-list:first-child::before {
+      content: "☆";
+    }
   }
 </style>

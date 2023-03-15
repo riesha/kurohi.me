@@ -155,8 +155,7 @@
     } */
     main {
       width: 95%;
-      height: 490px;
-      margin-top: 75px;
+      height: 90%;
     }
   }
 </style>
